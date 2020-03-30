@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "186224437164",
+    "firebase_url": "https://feedback360-c95d6.firebaseio.com",
+    "project_id": "feedback360-c95d6",
+    "storage_bucket": "feedback360-c95d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186224437164:android:5867c7c528dbd9824c7c09",
+        "android_client_info": {
+          "package_name": "com.feedback360"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186224437164-e355bqfsq8lroq31i5lcs7fvphovudgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo3HAw3l73-o7XQwd7oF04PLlztztT2W8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186224437164-e355bqfsq8lroq31i5lcs7fvphovudgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

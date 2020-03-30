@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>POC 1.0</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p>Teste de Notificação Firebase</p>
+  <ion-item>
+      <ion-label position="stacked">Topic Name: </ion-label>
+      <ion-input name="topic" [(ngModel)]="topic" type="text"></ion-input>
+  </ion-item>
+  <button ion-button color="primary" (click)="subscribe(topic)">Subscribe</button>
+  <ion-list>
+      <ion-item *ngFor="let t of topics" >
+        
+            <ion-label>
+              {{t}}
+              <button ion-button color="danger" (click)="unsubscribe(t)" float-right>Unsubscribe</button>
+            </ion-label>
+      
+      </ion-item>
+  </ion-list>
+  <button ion-button color="danger" (click)="unregister()">Unregister</button>
+</ion-content>
